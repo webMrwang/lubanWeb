@@ -1,0 +1,197 @@
+
+.tuan{
+	padding-top:10px;
+}
+.tuan .shop-process{
+	width:800px;
+	margin:0 auto;
+}
+.tuan .shop-process li{
+	margin-right:30px;
+	width:120px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border-bottom:6px solid #a6a6a6; 
+	list-style:none;
+	float:left;
+}
+.tuan .shop-process li.shop-process1{
+	border-bottom-color:#eea509;
+}
+.clear{
+	clear:both;
+}
+.tuan .shop-list{	
+	width:1200px;
+}
+.tuan .all-goods p{
+	margin-top:70px;
+	margin-left:30px;
+}
+.tuan .pro-col{
+	border-top:2px solid #ccc;
+	width:1200px;
+}
+
+.tuan .pro-col ul{
+	width:500px;
+	float:right;
+}
+.tuan .pro-col li{
+	list-style:none;
+	float:left;
+	margin-right:70px;
+}
+.tuan .shop-list{
+	margin-top:5px;
+	width:1200px;
+}
+.tuan .shop-list .company-details{
+	margin-left:10px;
+	margin-bottom:5px;
+}
+
+.tuan .shop-list .product-summary{
+	margin:0 auto;
+	padding-top:10px;
+	height:80px;
+	width:1180px;
+	background:#eef8ff;
+	font-size:15px;
+	border:1px solid #ccc;
+}
+
+.tuan .shop-list .product-summary .product-details input{
+	display:inline-block;
+	float:left;
+	height:63px;
+	line-height:63px;
+}
+.tuan .shop-list .product-summary .product-details a{
+	float:left;
+}
+.product-details .product-text{
+	float:left;
+	margin-left:30px;
+	height:63px;
+	width:450px;
+}
+.product-text .product-attr{
+	display:inline-block;
+	margin-right:10px;
+}
+.product-text .product-name .xianhuo-sign{
+	display:inline-block;
+	margin:0 5px;
+}
+.product-oneprice,.product-count,.product-price,.product-operations{
+	float:left;
+}
+
+.product-oneprice{
+	margin-left:125px;
+	height:80px;
+	line-height:80px;
+}
+
+.product-count{
+	position:relative;
+	margin-left:53px;
+	width:150px;
+	height:74px;
+	line-height:74px;
+}
+.product-count .count-value{
+	width:50px;
+    height:23px;
+    border:1px solid #e6e6e6;
+    text-align:center;
+    position:relative;
+    left:-4px;
+}
+.product-count .count-subtract{
+
+	cursor:pointer;
+	border:1px solid #e6e6e6;
+	border-right: none;
+	background-color: #f1f1f1;
+    height: 27px;
+    width: 27px;
+    color: #aeaeae;
+}
+.product-count .count-add{
+	position:relative;
+	left:-7px;
+	cursor:pointer;
+	border:1px solid #e6e6e6;
+	border-left: none;
+	background-color: #f1f1f1;
+    height: 27px;
+    width: 27px;
+    color: #aeaeae;
+}
+.product-count p{
+	margin:0;
+	padding:0;
+	line-height:0;
+	border:0;
+	position:absolute;
+	bottom:-13px;
+	left:25px;
+	height:20px;
+}
+.product-price{
+	margin-left:15px;
+	height:80px;
+	line-height:80px;
+}
+.product-operations{
+	margin-left:83px;
+	height:80px;
+	line-height:80px;
+
+}
+.product-operations a{
+	cursor:pointer;
+}
+
+.tuan .toolbar{
+	border: 1px solid #e6e6e6;
+    margin: 10px;
+    height:50px;
+    line-height: 50px;
+}
+.tuan .toolbar a.cart-delete{
+	text-decoration:none;
+	cursor:pointer;
+	float:left;
+}
+.tuan .toolbar .submit-button{
+	display:inline-block;
+	float:right;
+	position:relative;
+	top:-1px;
+	right:-1px;
+	height: 52px;
+    width: 100px;
+	text-align:center;
+	line-height:52px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #d1361e;
+    border-color: #ba301b;
+}
+.tuan .toolbar .toolbar-price{
+	float:right;
+	margin-right:50px;
+}
+.tuan .toolbar .toolbar-price span,.tuan .toolbar .toolbar-count span{
+	color:#d1361e;
+	font-size:16px;
+}
+.tuan .toolbar .toolbar-count{
+	float:right;
+	margin-right:50px;
+}

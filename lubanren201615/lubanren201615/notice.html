@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<style>
+			body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+			body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+			h1, h2, h3, h4, h5, h6{ font-size:100%; }
+			address, cite, dfn, em, var { font-style:normal; }
+			code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+			small{ font-size:12px; }
+			ul, ol { list-style:none; }
+			a { text-decoration:none; }
+			a:hover { text-decoration:underline; }
+			sup { vertical-align:text-top; }
+			sub{ vertical-align:text-bottom; }
+			legend { color:#000; }
+			fieldset, img { border:0; }
+			button, input, select, textarea { font-size:100%; }
+			table { border-collapse:collapse; border-spacing:0; }
+			body {
+			    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft YaHei",sans-serif;
+			    font-size: 14px;
+			    line-height: 1.42857143;
+			    color: #333;
+			    background-color: #e6e6e6;
+			}
+			.bg-white {
+			    background-color: white;
+			}
+			@media (min-width: 768px){
+				.container {
+				    width: 750px;
+				}
+			}
+			@media (min-width: 992px){
+				.container {
+				    width: 970px;
+				}
+			}
+			
+			
+			@media (min-width: 1200px){
+				.container {
+				    width: 1170px;
+				}
+			}
+			
+			.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+			    position: relative;
+			    min-height: 1px;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			}
+			.container {
+			    margin-right: auto;
+			    margin-left: auto;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			}
+			.row {
+			    margin-left: -15px;
+			    margin-right: -15px;
+			}
+			.table {
+			    page-break-inside: avoid;
+			}
+			.table {
+			    width: 100%;
+			    max-width: 100%;
+			    margin-bottom: 20px;
+			}
+			table {
+			    background-color: #fff;
+			}
+			table {
+			    border-collapse: collapse;
+			    border-spacing: 0;
+			}
+			thead {
+			    display: table-header-group;
+			    vertical-align: middle;
+			    border-color: inherit;
+			}
+			tr {
+			    display: table-row;
+			    vertical-align: inherit;
+			    border-color: inherit;
+			}
+			.table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>th, .table>caption+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>td, .table>thead:first-child>tr:first-child>td {
+			    border-top: 0;
+			}
+			.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+			    vertical-align: middle;
+			}
+			.table>thead>tr>th {
+			    vertical-align: bottom;
+			    border-bottom: 2px solid #ddd;
+			}
+			.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+			    padding: 8px;
+			    line-height: 1.42857143;
+			    vertical-align: top;
+			    border-top: 1px solid #ddd;
+			}
+			th {
+			    text-align: left;
+			}
+			tbody {
+			    display: table-row-group;
+			    vertical-align: middle;
+			    border-color: inherit;
+			}
+			tr {
+			    display: table-row;
+			    vertical-align: inherit;
+			    border-color: inherit;
+			}
+			.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+			    vertical-align: middle;
+			}
+			.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+			    padding: 8px;
+			    line-height: 1.42857143;
+			    vertical-align: top;
+			    border-top: 1px solid #ddd;
+			}
+			.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+			    padding: 8px;
+			    line-height: 1.42857143;
+			    vertical-align: top;
+			    border-top: 1px solid #ddd;
+			}
+			a {
+			    color: #8c8c8c;
+			    text-decoration: none;
+			}
+			a {
+			    background-color: transparent;
+			}
+			.text-primary {
+			    color: #d1361e;
+			}
+			.btn-primary-inverse {
+			    color: #d1361e;
+			    background-color: #fff;
+			    border-color: #d1361e!important;
+			}
+			.btn-block {
+			    display: block;
+			    /* width: 100%; */
+			}
+			.btn-sm, .btn-group-sm>.btn {
+			    padding: 5px 10px;
+			    font-size: 12px;
+			    line-height: 1.5;
+			    border-radius: 0;
+			}
+			.text-center {
+			    text-align: center;
+			}
+			.btn {
+			    display: inline-block;
+			    margin-bottom: 0;
+			    font-weight: 400;
+			    text-align: center;
+			    vertical-align: middle;
+			    touch-action: manipulation;
+			    cursor: pointer;
+			    background-image: none;
+			    border: 1px solid transparent;
+			    white-space: nowrap;
+			    padding: 6px 12px;
+			    font-size: 14px;
+			    line-height: 1.42857143;
+			    border-radius: 0;
+			    -webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			}
+		</style>
+	</head>
+	<body>
+	
+<div class="container bg-white" style="min-height: 350px;">
+  <div class="row">
+    <div class="col-lg-10">
+     
+        
+          <table class="table responsive-table">
+            <thead>
+            <tr>
+              <th style="width: 17em;">招标名称</th>
+              <th style="width: 9em;">地区</th>
+              <th>招标方</th>
+              <th>代理机构</th>
+              <th style="width: 7em;">发布日期</th>
+              <th class="text-center" style="width:5em">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+              
+              <tr>
+                <td data-label="招标名称：">
+                  <div class="bulletin-title">
+                    <a href="/obid/bulletin/25" target="_blank">
+               <span class="text-primary">【招标公告】</span>
+        
+                      阳曲县创业路道排工程设计招标公告
+                    </a>
+                  </div>
+                </td>
+                <td data-label="地区：">
+                  
+                    不限
+                    
+                 
+                </td>
+                <td data-label="招标方：">
+                 
+                </td>
+                <td data-label="代理机构：">
+    并辉建设工程招标代理有限公司
+                </td>
+                <td data-label="发布日期：">
+                  2016-06-20
+                </td>
+                <td>
+                  <a class="btn btn-sm btn-primary-inverse btn-block" href='/obid/bulletin/25' target="_blank">查看详情</a>
+                </td>
+              </tr>		
+			  </tbody>
+			  </div>
+			  </table >
+			</div>
+			</div>
+		
+	</body>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			//获取公告列表
+		    $.get('http://api.lubanlaila.com/announcement/announcements/online',function (data) {
+		        var list = ``
+		        var dataList = data.result;
+		        for (var i = 0; i < dataList.length;i++){
+		            // console.log(i)
+		            list += ` <a href="${dataList[i].linkUrl}" target="_blank">
+		                <li>【公告】${dataList[i].title}</li>
+		            </a>`
+		        }
+		        $('#notice_list').append(list)
+		        // console.log(list)
+		    })
+			})
+	</script>
+</html>

@@ -1,0 +1,98 @@
+
+/*Fix scrollbar overlay issue in IE*/
+@-ms-viewport {
+    width: auto !important;
+}
+
+/* CSS Document */
+/*侧边登录、返回顶部栏 side-bar*/
+.side-pannel {
+    padding-top:100px;
+    position:fixed;
+    z-index:9999;
+    top:0;
+    right:0;
+    bottom:0;
+    background: #000;
+    width:35px;
+}
+.side-pannel li{
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.side-pannel a,.cart-part{
+    line-height:18px;
+    text-decoration:none;
+    display:inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size:12px;
+    padding: 15px 10px ;
+    word-wrap:break-word;
+    word-break:normal;
+    vertical-align: bottom;
+}
+
+.cart-bar,
+.bullhorn-bar {
+    position: relative;
+}
+
+span.cart-part.upper {
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.side-pannel a.cart-link {
+    padding: 10px 0;
+}
+
+.side-pannel a span{
+    font-size: 14px;
+}
+.side-pannel li:hover{
+    background: #e1472f;
+}
+
+.side-pannel li.gotop{
+    position:absolute;
+    bottom:0px;
+    border-bottom:none;
+    display: none;
+}
+
+.badge.badge-cart{
+    background: #ba301b;
+}
+.badge.badge-cart.hide{
+    display: none;
+}
+
+.side-bar-tips {
+    position:absolute;
+    bottom:0px;
+    right:35px;
+    z-index:10000;
+    height:52px;
+    line-height:52px;
+    text-align:center;
+    color:#fff;
+    padding:  0 20px;
+    background:#000;
+    opacity: .7;
+    white-space:nowrap;
+    display: none;
+}
+
+.flyer-cart {
+    z-index: 9999;
+    position: relative;
+}
+
+.badge.badge-cart-img {
+    background:  #ba301b;
+    padding: 9px 11px;
+    border-radius: 15px;
+}

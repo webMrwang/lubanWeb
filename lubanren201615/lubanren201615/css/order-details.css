@@ -1,0 +1,115 @@
+.clear{
+	clear:both;
+}
+.tuan .order-content{
+	padding-top:80px;
+	font-size:15px;
+	font-family:Microsoft YaHei,SimSun;
+}
+.tuan .order-content .order-process{
+	float:left;
+	margin-left:50px;
+	width:200px;
+	height:480px;
+	background:#eef9ff;
+	text-align:center;
+}
+.tuan .order-content .order-process .order-process2{
+	margin-top:100px;
+}
+.tuan .order-content .order-process .order-process3{
+	margin-top:170px;
+}
+.tuan .order-content .order-process .order-process4{
+	margin-top:90px;
+}
+.tuan .order-content .order-details{
+	float:right;
+	margin-right:100px;
+	margin-top:5px;
+	width:800px;
+}
+.tuan .order-content .order-details form{
+	width:400px;
+	margin-left:10px;
+}
+
+.order-details .choose{
+	padding-left:10px;
+	height:35px;
+	line-height:35px;
+
+}
+.order-details .contact-detail{
+	margin-top:50px;
+}
+.order-details .contact-detail .indent-label{
+	position:relative;
+	left:15px;
+}
+.order-details .contact-detail input{
+	width:270px;
+	height:22px;
+	margin-left:15px;
+	border:1px solid #ccc;
+	outline:none;
+}
+.order-details .pay-way{
+	margin-top:30px;
+	padding-left:10px;
+}
+
+.order-details .pay-way .pay-way1{
+	height:40px;
+}
+
+.order-details .pay-way .pay-way1 p{
+	margin-left:250px; 
+	display:inline-block;
+}
+
+.order-details .pay-way form p{
+	margin-left:250px; 
+	display:inline-block;
+}
+.order-details .invoice-msg{
+	position:relative;
+	margin-top:70px;
+	padding-top:20px;
+	padding-left:10px;
+	height:100px;
+}
+.order-details .invoice-msg p{
+	display:none;
+	position:absolute;
+	right:250px;
+	top:-5px;
+}
+.order-details .invoice-msg p input{
+	margin-top:5px;
+	width:200px;
+	height:25px;
+	border:1px solid #ccc;
+	outline:none;
+}
+.order-details .invoice-msg p span{
+	display:block;
+}
+.tuan .order-content .submit-button{
+	width:130px;
+	height:40px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.tuan .order-content .submit-button a{
+	cursor:pointer;
+	display:block;
+	width:130px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background:#fe5d03;
+	color:#fff;
+	text-decoration:none;
+}
+

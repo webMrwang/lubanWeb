@@ -1,0 +1,45 @@
+.tuan{
+	padding-top:100px;
+}
+.tuan .order-push{
+	margin:0 auto;
+	width:850px;
+	text-align:center;
+}
+.tuan .order-push .success-sign span{
+	position:relative;
+	bottom:12px;
+}
+.tuan .order-push .order-num span{
+	color:#ff4a3e;
+}
+.tuan .order-push .pay-msg .web-pay{
+	font-weight:bolder;
+	margin-right:30px;
+}
+.tuan .order-push .pay-msg .pay-count{
+	color:#ff4a3e;
+	margin-right:30px;
+}
+.tuan .order-push span.pay-hour{
+	color:#ff4a3e;
+}
+.tuan .order-push a{
+	text-decoration:underline;
+	color:#079fd6;
+}
+.tuan .order-push a.pay-button,.tuan .order-push a.push-button{
+	margin:0 auto;
+	margin-top:50px;
+	display:inline-block;
+	width:130px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background:#fe5d03;
+	color:#fff;
+	text-decoration:none;
+}
+.tuan .order-push a.push-button{
+	margin-left:30px;
+}

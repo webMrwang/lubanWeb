@@ -1,0 +1,112 @@
+        
+        /**** 链接颜色 link,visited,hover*/
+        /*#333 #8D0000 #333*/
+        .fe661{color: #e66100 !important;}
+        .fe661:visited{color: #e66100 !important;}
+        .fe661:hover, .fe661:visited, .fe661:focus{color: #ff8400 !important;}
+        span.fe661 a:link, span.fe661 a:visited{color: #e66100 !important;}
+        span.fe661 a:hover, span.fe661 a:focus, span.fe661 a:active{color: #ff8400 !important;}
+
+        .f9157{color: #e66100 !important;}
+        span.f9157 a:link, span.f9157 a:visited{color: #915724 !important;}
+        span.f9157 a:hover, span.f9157 a:focus, span.f9157 a:active{color: #ff8400 !important;}
+
+        /*main*/
+      
+
+        /**** 编辑习惯 */
+        a.linkRed:link,a.linkRed:visited{color:#e66100!important;}
+        a.linkRed:hover,a.active:hover{color:#e66100!important;}
+        a.liveNewsLeft{background:url(../img/liveNewsLeft.gif) no-repeat 0px 50%; padding-left:25px;}
+        a.audioNewsLeft{background:url(../img/LeftAudio.gif) no-repeat ;padding-left:20px}
+        a.videoNewsLeft{background: url(../img/videoNewsLeft.gif) 0 50% no-repeat;padding-left: 23px;}
+        li.videoNewsLeft{background: url(../img/videoNewsLeft.gif) 0 50% no-repeat !important;padding-left: 23px !important;}
+
+        /*** 标题*/
+
+
+        /**** 列表*/
+        .list-a li{padding-left:10px;line-height:26px;height:26px;overflow:hidden;font-size: 12px;background:url(../img/icon.png) no-repeat 0 -881px;_zoom:1;}
+        .list-a a:link{color:#122E67;text-decoration:none;}
+        .list-a a:visited{color:#52687e;text-decoration:none;}
+        .list-a a:hover,.list-a a:active{color:#ff8400;text-decoration:underline;}
+
+        .list-b li{padding-left:10px;line-height:24px;height:24px;overflow:hidden;font-size: 12px;background:url(../img/icon.png) no-repeat 0 -881px;}
+        .list-b a:link{color:#666;text-decoration:none;}
+        .list-b a:visited{color:#666;text-decoration:none;}
+        .list-b a:hover,.list-b a:active{color:#ff8400;text-decoration:underline;}
+
+        .list-c li{line-height: 26px;}
+
+
+        /*---------------------------------- top-search.css*/
+        /*头部搜索模块*/
+      
+        /*.now-wea-wrap .now-wea-city{background: url(img/icon.png) 10px -478px no-repeat;}*/
+        .now-wea-wrap .now-wea-i{padding: 0 5px;}
+        .now-wea-wrap .now-wea-i img{margin-top: -1px;}
+        .now-wea-wrap .now-wea-st{padding-right: 5px;}/*头部title*/
+        .uni-blk{width: 360px;position: relative;}
+        .uni-blk .uni-blk-t{width:358px;height: 34px;border: 1px solid #dbdee1;line-height: 34px;background: url(../img/bg1px.png) 0 -33px repeat-x;}
+        .uni-blk-t .order-menu{float: left;margin-left: -2px;}
+        .uni-blk-t .t-guide{float: right;display: inline;margin-right: 10px;}
+        .uni-blk .order-trigger, .uni-blk .order-reset{display: block;position: absolute;z-index: 1000;top: -16px;right: -4px;}
+        .uni-blk .order-trigger{width: 63px;height:25px;line-height:22px;background: url(../img/bg2.png) 0px -358px no-repeat;color: #fff;text-align: center;}
+        .uni-blk .order-trigger:visited{color: #fff;}
+        .uni-blk .order-trigger:hover,.uni-blk-t .order-trigger:active,.uni-blk-t .order-trigger:focus{color: #fff;text-decoration: none;background-position: 0px -333px;}
+        .uni-blk .order-reset{width: 149px;height: 25px;line-height: 300px;overflow: hidden;}
+        .uni-blk .order-menu span{float: left;height: 35px;line-height:35px;font-size: 14px;font-family: "Microsoft YaHei","微软雅黑","SimHei","黑体";padding: 0 13px;margin-top: -1px;}
+        .uni-blk .order-menu a, .uni-blk .order-menu a:visited{color: #000;}
+        .uni-blk .order-menu a:hover, .uni-blk .order-menu a:active, .uni-blk .order-menu a:focus{color: #ff8400;text-decoration: none;}
+        .uni-blk .order-menu span.selected{height: 33px;line-height:29px;border-top: 3px solid #ff8400;border-left: 1px solid #dbdee1;border-right: 1px solid #dbdee1;background-color: #fff;_position: relative;_margin-bottom: -1px;padding:0 12px;}
+        .order-menu span.selected a, .order-menu span.selected em{}
+        .order-menu span.selected em{color: #000;font-style: normal;margin: 0 12px;}
+        .order-menu .vline{color: #000;font-style: normal;margin: 0 12px;}
+        .uni-blk .order-edit, .uni-blk .order-rest{color: #fff;background: url(../img/bg2.png) no-repeat;float: left;display: inline;text-align: center;width: 74px;}
+        .uni-blk .order-edit{background-position: 0px -403px;height: 22px;margin-right: 1px;}
+        .uni-blk .order-rest{background-position: -75px -403px;height: 25px;}
+        .uni-blk .order-edit:visited, .uni-blk .order-rest:visited{color: #fff;}
+        .uni-blk-t .order-edit:hover, .uni-blk-t .order-edit:focus, .uni-blk-t .order-edit:active, .uni-blk-t .order-rest:hover, .uni-blk-t .order-rest:focus, .uni-blk-t .order-rest:active{color: #fff;text-decoration: none;}
+        .uni-blk .order-edit:hover{background-position: 0px -435px;}
+        .uni-blk .order-rest:hover{background-position: -75px -435px;}
+        .uni-blk-t .order-changeit{width: 45px;padding-left: 10px;background: url(../img/icon.png) 40px -144px no-repeat;float: left;display: inline;border-left:1px solid #dbdee1;border-right: 1px solid #dbdee1}
+        .uni-blk-t .order-changeit, .uni-blk-t .order-changeit:visited{color: #7b8695;}
+        .uni-blk-t .order-changeit:hover,.uni-blk-t .order-changeit:focus,.uni-blk-t .order-changeit:active{color: #ff8400;background-color:#fff;text-decoration: none;background-position: 40px -1379px;}
+        .uni-blk-orderlist{padding-top: 3px !important}
+
+        
+        
+        /*财经内容搜索*/
+        .uni-blk-form{margin-top: 15px;margin-bottom: 9px;}
+        .uni-blk-form .sow-form .sow-ipt-w{width: 208px;}
+        .uni-blk-form .sow-form .sow-ipt{width: 204px;}
+        .uni-blk-form .sow-form .sim-select{position: relative;z-index: 20;}
+        .uni-blk-form .sim-select ul{left: 0px;top: 25px;}
+
+        /*底部信息层*/
+        .uni-blk-b{padding-top: 10px;}
+        .uni-blk-b .uni-blk-bt{padding: 10px 0px 1px 0px;}
+        .uni-blk-b .uni-blk-list01{float: left;padding-left: 15px;position: relative;margin-top: -5px;width: 220px;overflow: hidden;}
+        .uni-blk-b .uni-blk-list01 li{line-height: 26px !important;}
+        .uni-blk-b .uni-blk-list02{padding: 0px 0px 0px 0px;}
+        
+        /*图文*/
+        .uni-blk-pic{float: left;display: block;width: 105px;height: 90px;overflow: hidden;border:1px solid #fff;}
+        .uni-blk-pic span{width: 105px;text-align: center;color: #fff;height: 20px;line-height: 20px;display: block;background: #000;margin-top: -6px;}
+        .uni-blk-b .uni-blk-pic span, .uni-blk-b .uni-blk-pic:visited span, .uni-blk-b .uni-blk-pic:hover span, .uni-blk-b .uni-blk-pic:active span, .uni-blk-b .uni-blk-pic:focus span{color: #fff;}
+        .uni-blk-b .uni-blk-pic:hover{border-color: #e66100;text-decoration: none;}
+        .uni-blk-b .uni-blk-pic:hover span, .uni-blk-b .uni-blk-pic:active span, .uni-blk-b .uni-blk-pic:focus span{text-decoration: none;color: #ff8400}
+        .uni-blk-b .uni-blk-pic .play-icon {position:absolute; width:40px; height:40px; top:55px; left:5px; cursor:pointer; background:url(../img/play_icon_normal.png) no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='img/play_icon_normal.png');_background:none;}
+        .uni-blk-b .uni-blk-pic:hover .play-icon {background:url(../img/play_icon_hover.png) no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='img/play_icon_hover.png');_background:none;}
+
+        .uni-blk-bpic{width: 125px;height: 120px;position: relative;border:0px;}
+        .uni-blk-bpic span{position: absolute;z-index: 500;left: 0px;top: 70px;}
+
+        .uni-blk-bpic span{font-size:12px;width: 125px;height: 24px;line-height: 24px;top: 95px;background:none\9;filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0,startColorstr = '#9A000000', endColorstr = '#9A000000' )\9;background-color:rgba( 0, 0, 0, .6 );*background-color:transparent\9;}
+
+
+        /*mod04*/
+        .mod-04 .uni-blk-b{ padding-top: 10px; }
+        .mod-04 .uni-blk-bt{padding-top: 0px;margin-top: 5px;padding-bottom: 0px;}
+
+        

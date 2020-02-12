@@ -1,0 +1,26 @@
+.tuan .vd-introduce{
+	width:900px;
+	height:500px;
+	margin:0 auto;
+}
+.tuan .vd-content{
+	width:850px;
+	margin:0 auto;
+	margin-top:30px;
+	text-indent:2em;
+}
+.tuan .vd-content p{
+	line-height:24px;
+}
+.tuan .submit-button a{
+	display:block;
+	margin:0 auto;
+	margin-top:60px;
+	width:150px;
+	height:40px;
+	cursor:pointer;
+}
+.tuan .submit-button a img{
+	width:150px;
+	height:55px;
+}

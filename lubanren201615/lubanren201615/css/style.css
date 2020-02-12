@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* css 重置 */
+body,div,ul,li,dl,dt,dd,h2,p{padding:0;margin:0;font-family:"微软雅黑";}
+ul{list-style:none ;}
+img{border:none;}
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+
+/* banner-box */
+.banner-box{float:left;text-align:center;width:405px;min-width:230px;height:180px;position:relative;overflow:hidden;}
+.banner-box .bd{ width:405px !important;}
+.banner-box .bd li .m-width {width:100%;margin:0 auto;overflow:hidden;}
+.banner-box .bd li img{
+	height: 180px;
+	width: 405px;
+	border-left: 1px solid #ccc;
+}
+.banner-box .bd li{width:100% !important;height:180px;}
+.banner-box .bd li a{display:block;background-size:auto;}
+
+.banner-btn{width:405px;position:absolute;top:50px;left:50%;margin-left:-465px;}
+.banner-btn a{display:block;width:49px;height:104px;position:absolute;top:0;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;}
+.banner-btn a.prev{left:267px;background:url(../img/index/mleft.png) no-repeat;} 
+.banner-btn a.next{right:-270px;background:url(../img/index/mright.png) no-repeat;}
+
+.banner-box .hd {position:absolute;top:110px;left:100%;width: 250px;}
+.banner-box .hd ul li{width:12px;height:12px;border-radius :50%;text-indent:-9999px;margin-right:10px;background:#ccc;float:left;cursor:pointer;}
+.banner-box .hd ul li.on{background:#DA324D;}
+
+.banner-box1{float:left;text-align:center;width:120px;min-width:120px;height:180px;position:relative;overflow:hidden;}
+.banner-box1 .bd{ width:120px !important;}
+.banner-box1 .bd li .m-width {width:100%;margin:0 auto;overflow:hidden;}
+.banner-box1 .bd li img{
+	height: 180px;
+	border-left: 1px solid #ccc;
+}
+.banner-box1 .bd li{width:100% !important;height:180px;}
+.banner-box1 .bd li a{display:block;background-size:auto;}
+
+.banner-btn1{width:120px;position:absolute;top:50px;left:65%;margin-left:-605px;}
+.banner-btn1 a{display:block;width:49px;height:104px;position:absolute;top:0;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;}
+.banner-btn1 a.prev{left:20px;background:url(../images/foot.png) no-repeat 0 0;} 
+.banner-btn1 a.next{right:20px;background:url(../images/foot.png) no-repeat -49px 0;}
+
+.banner-box1 .hd {position:absolute;top:110px;left:100%;width: 250px;}
+.banner-box1 .hd ul li{width:12px;height:12px;border-radius :50%;text-indent:-9999px;margin-right:20px;background:#ccc;float:left;cursor:pointer;}
+.banner-box1 .hd ul li.on{background:#DA324D;}
+
+
+.banner-box2{float:left;text-align:center;width:1200px;min-width:230px;height:180px;position:relative;overflow:hidden;}
+.banner-box2 .bd{ width:1200px !important;}
+.banner-box2 .bd li .m-width {width:100%;margin:0 auto;overflow:hidden;}
+.banner-box2 .bd li img{
+	height: 180px;
+	width: 1200px;
+	border-left: 1px solid #ccc;
+}
+.banner-box2 .bd li{width:100% !important;height:180px;}
+.banner-box2 .bd li a{display:block;background-size:auto;}
+
+.banner-btn2{width:1200px;position:absolute;top:50px;left:0%;margin-left:-685px;}
+.banner-btn2 a{display:block;width:49px;height:104px;position:absolute;top:0;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;}
+.banner-btn2 a.prev{left:20px;background:url(../img/U2085P6T64D93079F1323DT20130608105802.jpg) no-repeat;} 
+.banner-btn2 a.next{right:20px;background:url(../img/index/apply1.png) no-repeat -49px 0;}
+
+.banner-box2 .hd {position:absolute;top:110px;left:100%;width: 250px;}
+.banner-box2 .hd ul li{width:12px;height:12px;border-radius :50%;text-indent:-9999px;margin-right:10px;background:#ccc;float:left;cursor:pointer;}
+.banner-box2 .hd ul li.on{background:#DA324D;}
+.people{
+	width: 118px;
+	height: 178px;
+	float: left;
+	border:1px solid #FFFFFF;
+}
+
+/* banner-box */
+.banner-box3{float:left;text-align:center;width:730px;min-width:530px;/*height:384px;*/height:350px;position:relative;overflow:hidden;}
+.banner-box3 .bd{ width:730px !important;}
+.banner-box3 .bd li .m-width {width:100%;margin:0 auto;overflow:hidden;}
+.banner-box3 .bd li img{
+	height: 384px;
+	width: 730px;
+	border-left: 1px solid #ccc;
+}
+.banner-box3 .bd li{width:100% !important;height:384px;}
+.banner-box3 .bd li a{display:block;background-size:auto;}
+
+.banner-btn3{width:730px;position:absolute;top:50px;left:50%;margin-left:-565px;}
+.banner-btn3 a{display:block;width:49px;height:104px;position:absolute;top:0;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;}
+.banner-btn3 a.prev{left:267px;background:url(../img/index/mleft.png) no-repeat;} 
+.banner-btn3 a.next{right:-270px;background:url(../img/index/mright.png) no-repeat;}
+
+.banner-box3 .hd {position:absolute;top:280px;left:75%;width: 180px;}
+.banner-box3 .hd ul li{width:12px;height:12px;border-radius :50%;text-indent:-9999px;margin-right:10px;background:#ccc;float:left;cursor:pointer;}
+.banner-box3 .hd ul li.on{background:#DA324D;}
+.banner-lunbo{
+	width: 730px;
+	height: 364px;
+	float: left;
+}

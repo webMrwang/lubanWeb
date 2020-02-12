@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<style>
+			body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+			body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+			h1, h2, h3, h4, h5, h6{ font-size:100%; }
+			address, cite, dfn, em, var { font-style:normal; }
+			code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+			small{ font-size:12px; }
+			ul, ol { list-style:none; }
+			a { text-decoration:none; }
+			a:hover { text-decoration:underline; }
+			sup { vertical-align:text-top; }
+			sub{ vertical-align:text-bottom; }
+			legend { color:#000; }
+			fieldset, img { border:0; }
+			button, input, select, textarea { font-size:100%; }
+			table { border-collapse:collapse; border-spacing:0; }
+			.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+			    content: " ";
+			    display: table;
+			}
+			.col-xs-4 {
+			    width: 33.33333333%;
+			}
+			
+			.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+			    float: left;
+			}
+			.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+			    position: relative;
+			    min-height: 1px;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			}
+
+			.container {
+				margin-right: auto;
+				margin-left: auto;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			@media (min-width: 768px){
+				.container {
+					width: 750px;
+				}
+			}
+			@media (min-width: 992px){
+				.container {
+					width: 970px;
+				}
+			}
+			@media  (min-width: 1200px){
+				.container {
+					width: 1170px;
+				}
+			}
+			
+			
+			
+			
+			
+			
+			.text-right {
+			    text-align: right;
+			}
+			input, button, select, textarea {
+			    font-family: inherit;
+			    font-size: inherit;
+			    line-height: inherit;
+			}
+			button, html input[type=button], input[type=reset], input[type=submit] {
+			    -webkit-appearance: button;
+			    cursor: pointer;
+			}
+			button, select {
+			    text-transform: none;
+			}
+			button {
+			    overflow: visible;
+			}
+			.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+			    display: block;
+			    max-width: 100%;
+			    height: auto;
+			}
+			
+			img {
+			    vertical-align: middle;
+			}
+			@media (min-width: 1200px)
+			.container {
+				width: 1170px;
+			}
+			@media (min-width: 992px)
+			.container {
+				width: 970px;
+			}
+			@media (min-width: 768px)
+			.container {
+				width: 750px;
+			}
+			.container {
+				margin-right: auto;
+				margin-left: auto;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.container {
+			    margin-right: auto;
+			    margin-left: auto;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			}
+			.search_products {
+			    background-color: #fff;
+			    min-height: 300px;
+			    overflow: hidden;
+			}
+			@media screen and (max-width: 1200px)
+			.product-list {
+			    width: 33%;
+			}
+			.product-list {
+			    width: 20%;
+			    overflow: hidden;
+			    float: left;
+			    padding: 10px 0;
+			}
+			.product-show {
+			    line-height: 20px;
+			    width: 200px;
+			    height: 317px;
+			    margin: 0px auto;
+			    padding: 8px;
+			    text-align: left;
+			    overflow: hidden;
+			}
+			.img-show {
+			    width: 100%;
+			    height: 184px;
+			    margin: 0 auto 8px;
+			}
+			a {
+			    color: #8c8c8c;
+			    text-decoration: none;
+			}
+			.img-show img {
+			    width: 100%;
+			    height: 100%;
+			}
+			p.product-price {
+			    font-size: 20px;
+			    line-height: 30px;
+			    height: 30px;
+			}
+			.text-show p {
+			    margin-bottom: 0px;
+			    overflow: hidden;
+			}
+			p.product-price a:link, p.product-price a:visited {
+			    color: red;
+			}
+			.text-show p {
+			    margin-bottom: 0px;
+			    overflow: hidden;
+			}
+			p.product-information a:link, p.product-information a:visited {
+			    color: #00549b;
+			    line-height: 20px;
+			    max-height: 40px;
+			}
+			p.product-information span, p.product-information a {
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    overflow: hidden;
+			    padding: 0;
+			}
+			p.company-name {
+			    font-size: 12px;
+			    line-height: 20px;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			}
+			.text-show p {
+			    margin-bottom: 0px;
+			    overflow: hidden;
+			}
+			p.company-name {
+			    font-size: 12px;
+			    line-height: 20px;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			}
+			button.add-to-cart, button.search-consult-start {
+			    margin-top: 5px;
+			}
+			.btn-block {
+			    display: block;
+			    width: 100%;
+			}
+			.btn-primary {
+			    color: #fff;
+			    background-color: #d1361e;
+			    border-color: #ba301b;
+			}
+			.btn {
+			    display: inline-block;
+			    margin-bottom: 0;
+			    font-weight: 400;
+			    text-align: center;
+			    vertical-align: middle;
+			    touch-action: manipulation;
+			    cursor: pointer;
+			    background-image: none;
+			    border: 1px solid transparent;
+			    white-space: nowrap;
+			    padding: 6px 12px;
+			    font-size: 14px;
+			    line-height: 1.42857143;
+			    border-radius: 0;
+			    -webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			}
+			.product-show .glyphicon {
+			    margin: 0 5px;
+			}
+			
+			.glyphicon {
+			    position: relative;
+			    top: 1px;
+			    display: inline-block;
+			    font-family: 'Glyphicons Halflings';
+			    font-style: normal;
+			    font-weight: 400;
+			    line-height: 1;
+			    -webkit-font-smoothing: antialiased;
+			    -moz-osx-font-smoothing: grayscale;
+			}
+			.col-xs-8 {
+			    width: 66.66666667%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container" id="search_products">
+			<div class="search_products">
+				<div class="clearfix products_div">
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script>
+		
+				$(document).ready(function () {
+					
+					$.get('http://api.lubanlaila.com/product/products/online',function (data) {
+					    var list = ``
+					    var dataList = data.result;
+					    for (var i = 0; i < dataList.length;i++){
+					        // console.log(i)
+					        list += ` <div class="product-list" pid="47080" ptid="64696">
+								            <div class="product-show">
+								              <div class="img-show">
+								                <a href="javascript:void(window.open('/product/detail/47080/64696.html;jsessionid=8108B4C1488F9C8F073299377D6894A1'));">
+						<img src="http://images.teleyi.com/productImage/2019/10/09/14-31-4712289_thumbnail.png"  alt=""  class="img-responsive" />
+								                </a>
+								              </div>
+								              <div class="text-show">
+								                <p class="product-price">
+								             <a target="_blank" href="${dataList[i].descriptionUrl}">${dataList[i].price}.00 ${dataList[i].unit}</a>
+								                    <a href="javascript:void(0);" class="search-consult-start search-consult">
+								                      <span class="icon-comment-alt pull-right" data-toggle="tooltip" data-placement="top" title="我要咨询"></span>
+								                    </a>
+								                </p>
+								                <p class="product-information">
+								                  <a class="col-xs-8" href="/product/detail/47080/64696.html;jsessionid=8108B4C1488F9C8F073299377D6894A1" target="_blank" title="">
+												   ${dataList[i].productName}
+												  </a>
+								                  <span class="col-xs-4 text-right" title="个">${dataList[i].inventory} 个</span>
+								                </p>
+								                <p class="company-name">
+								                  <a target="_blank" href="/company/115026"> ${dataList[i].merchantName}
+								                  </a>
+								                </p>					                    
+								                    <button class="btn btn-primary btn-block add-to-cart">我要买<span class="glyphicon glyphicon-shopping-cart" data-toggle="tooltip" data-placement="top" title="我要买"></span></button>
+								              </div>
+								            </div>
+								          </div>`
+					    }
+					   	$('.products_div').append(list)
+					    // console.log(list)
+					})
+					
+			
+				
+				})
+	</script>
+</html>

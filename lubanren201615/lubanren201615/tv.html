@@ -1,0 +1,61 @@
+ 
+<style type="text/css"><!-- 
+*{padding:0; margin:0;} 
+ul{list-style:none; margin:10px 30px; position:relative;} 
+ul li{position:relative; width:202px;height:22px; } 
+.text{width:200px; height:20px; position:absolute;border: 0; left:0; top:0;border:1px solid #ccc; line-height:20px; font-size:14px; cursor:default;} 
+.btn{position:absolute;width:17px; height:20px; right:1px; top:1px; display:inline-block; background:url(http://files.jb51.net/demoimg/201008/btn_thumb_1.jpg) no-repeat;} 
+.btnhover{background:url(http://files.jb51.net/demoimg/201008/btn2_thumb.jpg);} 
+.select{border:1px solid #666;width:199px; height:auto; position:absolute; top:21px; display:none;background:#fff;} 
+.select p{line-height:16px; font-size:13px; cursor:default; position:relative;} 
+.select .hover{background:#3399FD;} 
+--></style>  
+
+<ul> 
+<li><input type="text" class="text" value="dfdfd" onclick="beginSelect(this);" /><span class="btn" onmousedown="beginSelect(this)"></span></li> 
+<li class="select"> 
+<p >select1</p> 
+<p>select2</p> 
+<p>select3</p> 
+<p>select4</p> 
+</li> 
+</ul> 
+
+<script type="text/javascript">
+function beginSelect(elem){ 
+if(elem.className == "btn"){ 
+elem.className = "btn btnhover" 
+elem.onmouseup = function(){ 
+this.className = "btn" 
+} 
+} 
+var ul = elem.parentNode.parentNode; 
+var li = ul.getElementsByTagName("li"); 
+var selectArea = li[li.length-1]; 
+if(selectArea.style.display == "block"){ 
+selectArea.style.display = "none"; 
+} 
+else{ 
+selectArea.style.display = "block"; 
+mouseoverBg(selectArea); 
+} 
+} 
+function mouseoverBg(elem1){ 
+var input = elem1.parentNode.getElementsByTagName("input")[0]; 
+var p = elem1.getElementsByTagName("p"); 
+var pLength = p.length; 
+for(var i = 0; i < pLength; i++){ 
+p[i].onmouseover = showBg; 
+p[i].onmouseout = showBg; 
+p[i].onclick = postText; 
+} 
+function showBg(){ 
+this.className == "hover"?this.className = " ":this.className = "hover"; 
+} 
+function postText(){ 
+var selected = this.innerHTML; 
+input.setAttribute("value",selected); 
+elem1.style.display = "none"; 
+} 
+} 
+</script> 

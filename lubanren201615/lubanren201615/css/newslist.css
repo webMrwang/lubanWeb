@@ -1,0 +1,24 @@
+.news{
+	margin-top: 40px;
+	width: 1200px;
+	height: auto;
+	margin:20px auto;
+	background: #FFFFFF;
+	padding-bottom: 40px;
+}
+.news .title{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	background: rgb(251,218,165);
+	font-size: 20px;
+}
+.news .list li{
+	width: 90%;
+	margin: auto;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dashed rgb(212,212,212);
+	list-style: none;
+}

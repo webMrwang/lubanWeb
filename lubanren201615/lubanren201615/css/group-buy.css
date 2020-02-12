@@ -1,0 +1,92 @@
+
+.tuan .engineer{
+	float:left;
+	position:absolute;
+	left:20px;
+	/*
+	position:absolute;
+	left:50%;
+	margin-left:-200px;
+	*/
+	width:200px;
+}
+.tuan .engineer ul{
+	width:200px;
+}
+.tuan .engineer li.group-enter,.tuan .catelist li.group-enter{
+	background:#dfdbdb;
+}
+.tuan .engineer li{
+	list-style:none;
+	width:200px;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+	background:#f5f5f5;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #d8d8d8;
+	font-size:13px;
+	color:#333;
+}
+.tuan .catelist{
+	float:left;	
+	position:absolute;
+	left:240px;
+	width:220px;
+}
+.tuan .catelist ul{
+	width:220px;
+	height:360px;
+}
+.tuan .catelist li{
+	list-style:none;
+	width:200px;
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	/*color:#7d7d7d;*/
+	color:#333;
+	background:#f5f5f5;
+	border-top:1px solid #fff;
+	border-bottom:1px #d8d8d8 solid;
+}
+.tuan .catelist li img{
+	display:inline-block;
+	margin-left:30px;
+	margin-right:12px;
+	position:relative;
+	top:2px;
+}
+.tuan .content-box{
+	float:right;
+	position:absolute;
+	top:120px;
+	right:40px;
+	width:650px;
+	height:400px;
+	background:#fff;
+	border:1px #ccc solid;
+}
+.tuan .content-box .content-head{
+	margin-top:-16px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background:#f2f2f2;
+}
+.tuan .content-box .content-head p{
+	height:40px;
+	border-bottom:1px #ccc solid;
+}
+.tuan .content-box .content-tips{
+	width:650px;
+
+}
+.tuan .content-box .content-tips p{
+	word-wrap: break-word;
+	text-indent:2em;
+	color:#f03939;
+}
+.clear{
+	clear:both;
+}

@@ -1,0 +1,226 @@
+body{
+	position:relative;
+}
+.tuan{
+	padding-top:40px;
+}
+.clear{
+	clear:both;
+}
+.tuan .shop-list{
+	width:1200px;
+}
+.tuan .all-goods p{
+	margin-top:70px;
+	margin-left:30px;
+}
+.tuan .pro-col{
+	border-top:2px solid #ccc;
+	width:1200px;
+}
+
+.tuan .pro-col ul{
+	width:500px;
+	float:right;
+}
+.tuan .pro-col li{
+	list-style:none;
+	float:left;
+	margin-right:70px;
+}
+.tuan .shop-list{
+	width:1200px;
+}
+.tuan .shop-list .company-details{
+	margin-left:20px;
+}
+
+.tuan .shop-list .product-summary{
+	margin:0 auto;
+	margin-top:20px;
+	padding-top:10px;
+	height:80px;
+	width:1180px;
+	background:#eef8ff;
+	font-size:15px;
+	border:1px solid #ccc;
+}
+
+.tuan .shop-list .product-summary .product-details a{
+	float:left;
+	position:relative;
+	left:10px;
+}
+.product-details .product-text{
+	float:left;
+	margin-left:30px;
+	height:63px;
+	width:450px;
+}
+.product-text .product-attr{
+	display:inline-block;
+	margin-right:10px;
+}
+.product-text .product-name .xianhuo-sign{
+	display:inline-block;
+	margin:0 5px;
+}
+.product-oneprice,.product-count,.product-price,.product-operations{
+	float:left;
+}
+
+.product-oneprice{
+	margin-left:125px;
+	height:80px;
+	width:100px;
+	text-align:center;
+	line-height:80px;
+}
+.product-count{
+	width:80px;
+	margin-left:42px;
+	margin-top:15px;
+	text-align:center;
+}
+.product-price{
+	margin-left:38px;
+	height:80px;
+	width:100px;
+	line-height:80px;
+	text-align:center;
+}
+.check-again{
+	margin:0 auto;
+	margin-top:30px;
+	width:800px;
+	height:300px;
+	border:1px solid #ccc;
+}
+.check-again .pay-submit{
+	float:right;
+	margin-right:30px;
+}
+.check-again .pay-submit p a{
+	display:inline-block;
+	margin-right:7px;
+	width:100px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	background:#bb0000;
+	color:#fff;
+}
+.check-again .pay-submit p span{
+	color:#f61c1c;
+}
+.check-again .check-details{
+	width:700px;
+	margin:0 auto;
+}
+.check-again .check-details div.check-box{
+	width:350px;
+	
+	margin:0 auto;
+}
+.check-again .check-details div.check-box p.two-word{
+	position:relative;
+	left:16px;
+}
+.check-again .check-details div.check-box input{
+	width:250px;
+	height:20px;
+	outline:none;
+}
+.check-again .check-details div.check-box p .get-msgverify{
+	display:block;
+	margin-left:56px;
+	width:150px;
+	height:25px;
+	line-height:25px;
+	cursor:pointer;
+	text-align:center;
+	border:1px solid #ccc;
+}
+
+.cover{
+	display:none;
+	position:absolute;
+	top:0;
+	z-index:10;
+	background:#fff;
+	filter:alpha(opacity=70); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.7; /*Firefox私有，透明度50%*/
+	opacity:0.7;/*其他，透明度50%*/
+}
+.cover-box{
+	display:none;
+	position:absolute;
+	top:0;
+	z-index:11;
+}
+.cover-box .msg-box{
+	width:400px;
+	height:350px;
+	position:absolute;
+	margin-left:-200px;
+	margin-top:-175px;
+	border:5px solid #ccc;
+	background:#fff;
+}
+.cover-box .msg-box .price-head{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	background:#4c5b78;
+}
+.cover-box .msg-box .price-head p.price-pay{
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	float:left;
+	font-size:18px;
+	color:#fff;
+}
+.cover-box .msg-box .price-head p.price-submit{
+	float:right;
+	margin:0;
+	padding:0;
+	margin-right:20px;
+	font-size:18px;
+	
+}
+.cover-box .msg-box .price-head p.price-submit a{
+	cursor:pointer;
+	color:#fff;
+}
+.cover-box .msg-box .get-verify{
+	width:100%;
+	text-align:center;
+}
+.cover-box .msg-box .get-verify input{
+	width:220px;
+	height:25px;
+	outline:none;
+}
+.cover-box .msg-box .get-verify p.check-verify{
+	color:#ff6160;
+}
+.cover-box .msg-box .get-verify p.check-verify a.verify-clear{
+	color:#21a2e4;
+	cursor:pointer;
+}
+.cover-box .msg-box .verify-again{
+	width:300px;
+	margin:0 auto;
+	padding-left:20px;
+	font-size:15px;
+	border-top:1px solid #ccc;
+}
+.cover-box .msg-box .verify-again p.verify-again1{
+	float:left;
+	margin-right:40px;
+}
+.cover-box .msg-box .verify-again p.verify-again-line{
+	float:left;
+	margin-right:40px;
+}

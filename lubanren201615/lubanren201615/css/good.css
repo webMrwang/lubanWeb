@@ -1,0 +1,277 @@
+.good-top{
+	width: 1200px;
+	height: 70px;
+	margin: auto;
+	background: #FFFFFF;
+	margin-top: 15px;
+} 
+a{ color:#006600; text-decoration:none;}
+a:hover{color:#990000;}
+.area{
+	padding-top: 15px;
+    margin-right: 20px;
+    /* right: 20px; */
+    /* width: 55px; */
+    padding-left: 20px;
+    height: 55px;
+    width: 1100px;
+}
+.info select{ /*border:1px rgb(204,204,204) solid;*/border: 0;outline: none; background:#FFFFFF;height: 40px;width: 80px;float: left;font-size: 16px;}
+.info .breakline{
+	width: 1px;
+	height: 40px;
+	border-right: 1px solid rgb(230,230,230);
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.info{ margin:0px; text-align:left;}
+.info #show{ color:#3399FF; }
+.bottom{ text-align:right; font-size:18px; color:#CCCCCC; width:1000px;}
+
+.searchgood{
+	width: 450px;
+	height: 32px;
+	margin-top: 3px;
+	margin-left: 90px;
+	float: left;
+}
+.searchgood .intext{
+	width: 330px;
+	height: 32px;
+	border: 1px solid rgb(220,220,220);
+	position: relative;
+	float: left;
+}
+.searchgood .intext input{
+	width: 280px;
+	height: 30px;
+	padding-left: 35px;
+	border: 0;
+	outline: none;
+}
+.searchgood .intext img{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.searchgood .gosearch{
+	width: 60px;
+	height: 32px;
+	margin-top: 0px;
+	margin-left: 10px;
+	float: left;
+	background: rgb(197,49,43);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 32px;
+	font-size: 16px;
+}
+.condition{
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+	background: rgb(248,248,248);
+	margin-top: 5px;
+}
+.condition .selectcon{
+	width: auto;
+	margin-left: 20px;
+	float: left;
+}
+.condition .con{
+	width: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 0;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	color: rgb(138,138,138);
+	margin-left: 1px;
+}
+.condition .con:hover{
+	color: rgb(198,47,44);
+	background: #FFFFFF;
+}
+.condition .on{
+	color: rgb(198,47,44);
+	background: #FFFFFF;
+}
+
+.goodnum{
+	margin-left: 30px;
+	width: auto;
+	float: left;
+}
+.goodnum .name{
+	float: left;
+	line-height: 50px;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+.goodnum .fromto{
+	float: left;
+	line-height: 50px;
+	width: auto;
+	text-align: center;
+}
+.goodnum input{
+	width: 60px;
+	float: left;
+	height: 20px;
+	margin-top: 12px;
+	outline: none;
+}
+.hon{
+	width: 100px;
+	line-height: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 0px;
+}
+.hon .select{
+	float: left;
+}
+.hon .cname{
+	float: left;
+}
+.goodlist{
+	width: 1160px;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-height: 1250px;
+	margin: auto;
+	background: #FFFFFF;
+	margin-top: 5px;
+}
+.goodlist .box{
+	width: 190px;
+	height: 270px;
+	padding: 10px 10px 10px 10px;
+	float:left;
+	margin: 10px;
+}
+.goodlist .box .goodimg{
+	width: 190px;
+	height: 190px;
+	margin: auto;
+	text-align: center;
+	line-height: 185px;
+	background: rgb(225,225,225);
+}
+.goodlist .box .goodimg img{
+	margin-top: 5px;
+	width: 180px;
+	height: 180px;
+}
+.goodlist .box:hover{
+	width: 190px;
+	height: 270px;
+	padding: 9px 9px 9px 9px;
+	border: 1px solid rgb(231,45,0);
+}
+.goodinfo{
+	padding-top: 10px;
+	width: 100%;
+	height: 80px;
+}
+.goodinfo .price{
+	width: 100%;
+	text-align: left;
+	color: rgb(255,0,0);
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.goodinfo .title{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: rgb(0,48,155);
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goodinfo .company{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
+	color: rgb(140,140,140);
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.page{
+	width: 1200px;
+	background: #FFFFFF;
+	height: 80px;
+	margin: auto;
+}
+.goodpage{
+	width: 400px;
+	height: 32px;
+
+	margin: auto;
+}
+.goodpage .pageselect{
+	width: 248px;
+	height: 30px;
+	float:left;
+	border-left: 1px solid rgb(220,220,220);
+	border-top: 1px solid rgb(220,220,220);
+	border-bottom: 1px solid rgb(220,220,220);
+}
+.goodpage .pageselect .pagebox{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-right: 1px solid rgb(220,220,220);
+	color: rgb(140,140,140);
+	float: left;
+}
+.goodpage .pageselect .pagebox:hover{
+	color: rgb(221,91,47);
+	background: rgb(238,238,238);
+}
+.goodpage .pageselect .on{
+	background: rgb(209,54,30);
+	color: #FFFFFF;
+}
+.pageinfo{
+	width: auto;
+	float: left;
+	height: 30px;
+	margin-left: 5px;
+	line-height: 30px;
+}
+.pageinfo .total{
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	float: left;
+	color: rgb(209,54,30);
+	font-size: 14px;
+	font-weight: bold;
+}
+.pageinfo .totalnum{
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 5px;
+	width: auto;
+	height: 30px;
+	float: left;
+	color: rgb(209,54,30);
+	font-size: 14px;
+	font-weight: bold;
+}
