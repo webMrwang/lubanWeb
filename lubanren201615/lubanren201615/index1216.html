@@ -230,13 +230,13 @@
                     <li><span><a href="" target="_blank">工程建材招投标</a></span></li>
 					<div class=" poa">
 					    <ul class="ul1">
-					         <a><span> 招标委托 </span></ a>
+					         <a href="./notice.html?pizId=2" target="_blank"><span> 招标委托 </span></ a>
 					         </ul>
 							 <ul class="ul1">
-							      <a><span> 招标公告 </span></ a>
+							      <a href="./notice.html?pizId=1" target="_blank"><span> 招标公告 </span></ a>
 							      </ul>
 								  <ul class="ul1">
-								       <a><span> 中标公告 </span></ a>
+								       <a href="./noticeResult.html?pizId=1" target="_blank"><span> 中标公告 </span></ a>
 								       </ul>
 					    </div>
                 </a>
@@ -246,13 +246,13 @@
                     <li><span><a href="" target="_blank">工程承包招投标</a></span></li>
 					<div class=" poa">
 					    <ul class="ul1">
-					         <a><span> 招标委托 </span></ a>
+					         <a href="./notice.html?pizId=4"  target="_blank"><span> 招标委托 </span></ a>
 					         </ul>
 							 <ul class="ul1">
-							      <a><span> 招标公告 </span></ a>
+							      <a><span  href="./notice.html?pizId=3"  target="_blank"> 招标公告 </span></ a>
 							      </ul>
 								  <ul class="ul1">
-								       <a><span> 中标公告 </span></ a>
+								       <a href="./noticeResult.html?pizId=3" target="_blank"><span> 中标公告 </span></ a>
 								       </ul>
 					    </div>
                 </a>
@@ -432,11 +432,11 @@
     <div class="quality-goods-title">
         <p>优质产品</p>
     </div>
-    <div class="quality-goods-left"><a><img src="img/index/left.png"></a></div>
+    <!-- <div class="quality-goods-left"><a><img src="img/index/left.png"></a></div> -->
     <div class="quality-goods-cover">
         <div class="quality-goods-list">
             <ul class="quality-goods-ul">
-                <a href="http://lubanlucky.com/build_materials/index.php?m=Mall&c=Goods&a=goods_detail&id=24">
+          <!--      <a href="http://lubanlucky.com/build_materials/index.php?m=Mall&c=Goods&a=goods_detail&id=24">
                     <li>
                         <img src="img/index/indexgood/1.jpg">
                         <p class="materia-price">￥80.00</p>
@@ -484,7 +484,7 @@
                         <p class="company-name">广州民生管业有限公司</p>
                     </li>
                 </a>
-
+ -->
             </ul>
             <div class="quality-list-copy"></div>
             <div class="quality-list-copy"></div>
@@ -492,7 +492,7 @@
     </div>
 
 
-    <div class="quality-goods-right"><a><img src="img/index/right.png"></a></div>
+    <!-- <div class="quality-goods-right"><a><img src="img/index/right.png"></a></div> -->
 </div>
 <!--优质产品end-->
 <!--banner-->
@@ -2583,6 +2583,31 @@
 </script>
 
 <script>
+	
+	//h获取产品列表
+	$.get('http://api.lubanlaila.com/product/products/online',function (data) {
+	    var list = ``
+	    var dataList = data.result;
+		var a;
+		if(dataList.length >= 6) a = 6;
+		if(dataList.length < 6) a = dataList.length
+	    for (var i = 0; i < a; i++){
+				list += `
+				<a class='goDetails' href="goodsDetail.html?pizId=${dataList[i].bizId}" target="_blank" >
+				            <li>
+				                <img src="${dataList[i].imageUrl}">
+				                <p class="materia-price">￥${dataList[i].price}.00</p>
+				                <p>${dataList[i].productName}</p>
+				                <p class="company-name">${dataList[i].merchantName}</p>
+				            </li>
+				        </a>
+				`
+			}
+			$('.quality-goods-ul').append(list)
+			
+			
+		})
+	
     $(document).ready(function () {
 		//获取公告列表
         $.get('http://api.lubanlaila.com/announcement/announcements/online',function (data) {

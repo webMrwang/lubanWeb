@@ -196,8 +196,8 @@
               <th style="width: 17em;">招标名称</th>
               <th style="width: 9em;">地区</th>
               <th>招标方</th>
-              <th>代理机构</th>
-              <th style="width: 7em;">发布日期</th>
+              <th>中标方商户名称</th>
+              <th style="width: 7em;">中标时间</th>
               <th class="text-center" style="width:5em">操作</th>
             </tr>
             </thead>
@@ -267,11 +267,11 @@
                 <td data-label="招标方：">
                  ${dataList[i].biddingMerchantName}
                 </td>
-                <td data-label="代理机构：">
-				 ${dataList[i].proxyMerchantName}
+                <td data-label="中标方商户名称：">
+				 ${dataList[i].winMerchantName }
                 </td>
-                <td data-label="发布日期：">
-                  ${dataList[i].publishDate}
+                <td data-label="中标时间：">
+                  ${dataList[i].winDate }
                 </td>
                 <td>
                   <a class="btn btn-sm btn-primary-inverse btn-block" href='${dataList[i].pdfUrl}' target="_blank">查看详情</a>
