@@ -2585,7 +2585,7 @@
 							<a class='goDetails' href="goodsDetail.html?pizId=${dataList[i].bizId}" target="_blank" >
 							            <li>
 							                <img src="${dataList[i].imageUrl}">
-							                <p class="materia-price">￥${dataList[i].price}.00</p>
+							                <p class="materia-price">￥${dataList[i].price?dataList[i].price:'0.00'}</p>
 							                <p>${dataList[i].productName}</p>
 							                <p class="company-name">${dataList[i].merchantName}</p>
 							            </li>
