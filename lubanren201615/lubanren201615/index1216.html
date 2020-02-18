@@ -40,6 +40,15 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <!-- Chang URLs to wherever Video.js files will be hosted -->
     <link href="videojs/video-js.css" rel="stylesheet" type="text/css">
+	
+	<style>
+		.cat-right li{
+			white-space:nowrap;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			}
+	</style>
+	
     <!-- video.js must be in the <head> for older IEs to work. -->
     <script src="videojs/video.js"></script>
     <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
@@ -2721,7 +2730,7 @@
 				// $(`.poa${i}`).append(sonList)
 		    }
 			console.log(list)
-		    $('.engineer').append(list)
+		    // $('.engineer').append(list)
 			$('.engineer li').hover(function(){
 				console.log( $(this))
 			 $(this).next().css('display','block')

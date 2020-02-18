@@ -269,22 +269,22 @@
 					        list += ` <div class="product-list" pid="47080" ptid="64696">
 								            <div class="product-show">
 								              <div class="img-show">
-								                <a href="javascript:void(window.open('/product/detail/47080/64696.html;jsessionid=8108B4C1488F9C8F073299377D6894A1'));">
-						<img src="http://images.teleyi.com/productImage/2019/10/09/14-31-4712289_thumbnail.png"  alt=""  class="img-responsive" />
+								                <a href="./goodsDetail.html?searchData=${dataList[i].bizId}"  target="_blank">
+						<img src="${dataList[i].imageUrl}"  alt=""  class="img-responsive" />
 								                </a>
 								              </div>
 								              <div class="text-show">
 								                <p class="product-price">
-								             <a target="_blank" href="${dataList[i].descriptionUrl}">${dataList[i].price}.00 ${dataList[i].unit}</a>
+								             <a target="_blank" href="${dataList[i].descriptionUrl}">${dataList[i].price?dataList[i].price:''}${dataList[i].unit}</a>
 								                    <a href="javascript:void(0);" class="search-consult-start search-consult">
 								                      <span class="icon-comment-alt pull-right" data-toggle="tooltip" data-placement="top" title="我要咨询"></span>
 								                    </a>
 								                </p>
 								                <p class="product-information">
-								                  <a class="col-xs-8" href="/product/detail/47080/64696.html;jsessionid=8108B4C1488F9C8F073299377D6894A1" target="_blank" title="">
+								                  <a class="col-xs-8" href="./goodsDetail?searchData=${dataList[i].bizId}" target="_blank" title="">
 												   ${dataList[i].productName}
 												  </a>
-								                  <span class="col-xs-4 text-right" title="个">${dataList[i].inventory} 个</span>
+								                  <span class="col-xs-4 text-right" title="个">${dataList[i].inventory?dataList[i].inventory:''}</span>
 								                </p>
 								                <p class="company-name">
 								                  <a target="_blank" href="/company/115026"> ${dataList[i].merchantName}
