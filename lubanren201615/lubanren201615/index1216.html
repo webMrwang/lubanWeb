@@ -159,10 +159,10 @@
 </head>
 <body>
 <div class="home-ad" id="home-ad">
-	<a href="http:www.baidu.com" target="_blank">
+<!-- 	<a href="http:www.baidu.com" target="_blank">
 		<img class="ad-content" src="img/index/indexlunbo/rangli.png"/>
 		</a>
-		<img class="close" src="img/close.png" alt="关闭" onclick="document.getElementById('home-ad').style='display:none'"/>
+		<img class="close" src="img/close.png" alt="关闭" onclick="document.getElementById('home-ad').style='display:none'"/> -->
 		</div>
 <!--右边菜单-->
 <!--<div class="right-bar">
@@ -2605,7 +2605,7 @@
 				<a class='goDetails' href="goodsDetail.html?pizId=${dataList[i].bizId}" target="_blank" >
 				            <li>
 				                <img src="${dataList[i].imageUrl}">
-				                <p class="materia-price">￥${dataList[i].price}.00</p>
+				                <p class="materia-price">￥${dataList[i].price?dataList[i].price:'0.00'}</p>
 				                <p>${dataList[i].productName}</p>
 				                <p class="company-name">${dataList[i].merchantName}</p>
 				            </li>
